@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".frontPageMainActivity">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/main_studentsList_rv"
+        android:layout_width="409dp"
+        android:layout_height="650dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/main_addStudent_btn"
+        android:layout_width="60dp"
+        android:layout_height="62dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="6dp"
+        android:shadowColor="#DF0D0D"
+        android:text="+"
+        android:textColorHighlight="#DA0909"
+        android:textColorHint="#E60F0F"
+        android:textColorLink="#FB0D0D"
+        android:textSize="30sp"
+        app:iconTint="#E61414"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:rippleColor="#D10B0B"
+        app:strokeColor="#0044ED" />
+</androidx.constraintlayout.widget.ConstraintLayout>
